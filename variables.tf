@@ -20,14 +20,13 @@ variable "serverlist" {
   description = "Map of FQDN to VM UUID"
   type        = map(string)
   default = {
-    "uhart-dxesa-002.hartford.edu" = "421a3ed8-a349-1bcb-26c5-56e36da8b5a5"
-    "uhart-dxesa-003.hartford.edu" = "421a6344-024d-bc9c-b0c0-28d3c566ba20"
-    "uhart-dxeaa-003.hartford.edu" = "421afca3-cb74-bd81-b954-d86486860761"
-    "uhart-dxesa-001.hartford.edu" = "421ac74e-49a8-8a8b-8528-2320edd401d0"
-    "uhart-dbesa-001.hartford.edu" = "421a0388-7166-d560-c141-5aea7fc2d0a7"
-    "uhart-dxeaa-001.hartford.edu" = "421abf53-e95d-62c5-3fc4-618519077dec"
-    "uhart-dxeaa-002.hartford.edu" = "421af966-7427-d3d3-9670-9add9ff207c1"
-    "ban-test-db-01.hartford.edu" = "421aa04b-2756-77b9-43e3-fb007873987a"
+    "uhart-pxesa-001.hartford.edu" = "421a935d-6b26-6eb0-2300-a4b6b9adfa96"
+    "uhart-esm-001.hartford.edu" = "421ab4df-ec41-91e1-6ef6-5755f4437f8a"
+    "uhart-pbesa-001.hartford.edu" = "421a9b4d-dc90-0091-a12a-6bbe1d4aebf5"
+    "uhart-pxesa-003.hartford.edu" = "421a61c2-d59d-5584-9fda-8590e2ffa87a"
+    "uhart-pxeaa-001.hartford.edu" = "421a27d2-c18e-e190-5049-25109e4a829c"
+    "uhart-pxesa-006.hartford.edu" = "421a2540-5f29-d422-cc18-7dc3a0860938"
+    "ban-prod-db-01.hartford.edu" =  "421ae63f-6492-de63-86b9-517139de5429"
   }
 }
 
